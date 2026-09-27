@@ -1,0 +1,41 @@
+ID,CATEGORY,SUBCATEGORY,REQUIRES_CREDIT_CHECK
+1,Data-Only,Family Plan,N
+2,Data-Only,Individual,No
+3,postpaid,High Speed,N
+4,Postpaid,IoT,Yes
+5,postpaid,Basic,N
+6,Postpaid,Individual,N
+7,Business,Basic,N
+8,Data-Only,Family Plan,Y
+9,prepaid,High Speed,N
+10,Prepaid,Basic,N
+11,Postpaid,IoT,N
+12,prepaid,High Speed,No
+13,Data-Only,IoT,No
+14,prepaid,High Speed,Yes
+15,Data-Only,Individual,N
+16,prepaid,Family Plan,N
+17,Prepaid,Individual,N
+18,postpaid,High Speed,Yes
+19,Business,IoT,N
+20,Postpaid,Individual,No
+21,prepaid,Basic,N
+22,Data-Only,Individual,Yes
+23,postpaid,IoT,Y
+24,prepaid,Family Plan,Y
+25,prepaid,Family Plan,Yes
+26,Postpaid,Family Plan,No
+27,Data-Only,IoT,Y
+28,Data-Only,Family Plan,Y
+29,Prepaid,Individual,N
+30,Prepaid,IoT,Y
+31,Business,IoT,Y
+32,prepaid,High Speed,Y
+33,Business,High Speed,Y
+34,prepaid,Basic,N
+35,prepaid,Family Plan,N
+36,prepaid,Basic,Yes
+37,Data-Only,Individual,Yes
+38,Data-Only,Individual,No
+39,postpaid,High Speed,Y
+40,Data-Only,Family Plan,Yes

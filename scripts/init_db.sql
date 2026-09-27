@@ -1,0 +1,21 @@
+USE master;
+GO
+
+IF EXISTS(SELECT 1 FROM sys.databases WHERE name = 'telco_dwh')
+BEGIN
+    ALTER DATABASE telco_dwh SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE telco_dwh;
+END;
+GO
+
+CREATE DATABASE telco_dwh;
+GO
+
+USE telco_dwh;
+GO
+
+CREATE SCHEMA bronze;
+GO
+CREATE SCHEMA silver;
+GO
+CREATE SCHEMA gold;

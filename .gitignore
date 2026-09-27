@@ -1,0 +1,35 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and editor settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.vs/
+
+# Temporary files and operating system metadata
+*.log
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local SQL Server database files
+*.mdf
+*.ndf
+*.ldf
+
+# Power BI local caches and settings
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+**/.pbi/unappliedChanges.json
